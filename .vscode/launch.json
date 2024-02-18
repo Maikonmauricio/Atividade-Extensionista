@@ -1,0 +1,24 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": " micrsoft edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://micrsoft.com",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Iniciar o micrsoft edge em relação a micrsoft edge",
+            "url": "http://micrsoft.com",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
