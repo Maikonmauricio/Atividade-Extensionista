@@ -2,14 +2,19 @@ body {
     color: rgb(226, 236, 226);
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
  a {
@@ -59,9 +64,28 @@ footer p {
 color: rgb(83, 82, 82);
 }
 
-h2{
-    font-size: 40px;
-    color: aqua;
+h1{
+    font-size: 50px;
+    margin-top: 60px;
 }
+
+h2{
+    margin-top: 60px;
+    color: aqua;
+    font-size: 50px;
+}
+h3{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+section {
+    margin: 90px;
+}
+
+p {
+    text-decoration: none;
+    font-size: 20px;
+  }
 
 
